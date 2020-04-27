@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Melvin Micallef</title>
+<link rel="dns-prefetch" href="//s.w.org">
+
+
+<link rel="stylesheet" id="wp-block-library-css" href="http://micallefmelvin.com/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-show-posts-css" href="http://micallefmelvin.com/wp-content/plugins/wp-show-posts/css/wp-show-posts-min.css" type="text/css" media="all">
+<link rel="stylesheet" id="eael-front-end-css" href="http://micallefmelvin.com/wp-content/uploads/essential-addons-elementor/fa14246f25c1f49521caa3b833063c08.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="hello-elementor-css" href="http://micallefmelvin.com/wp-content/themes/hello-elementor/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="hello-elementor-theme-style-css" href="http://micallefmelvin.com/wp-content/themes/hello-elementor/theme.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-icons-css" href="http://micallefmelvin.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-animations-css" href="http://micallefmelvin.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="http://micallefmelvin.com/wp-content/plugins/elementor/assets/css/frontend.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-pro-css" href="http://micallefmelvin.com/wp-content/plugins/elementor-pro/assets/css/frontend.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="uael-frontend-css" href="http://micallefmelvin.com/wp-content/plugins/ultimate-elementor/assets/min-css/uael-frontend.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="http://micallefmelvin.com/wp-content/uploads/elementor/css/global.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-14-css" href="http://micallefmelvin.com/wp-content/uploads/elementor/css/post-14.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-37-css" href="http://micallefmelvin.com/wp-content/uploads/elementor/css/post-37.css" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=5.4" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-icons-shared-0-css" href="http://micallefmelvin.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-solid-css" href="http://micallefmelvin.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css" type="text/css" media="all">
+<script type="text/javascript">
+/* <![CDATA[ */
+var uael_script = {"post_loader":"http:\/\/micallefmelvin.com\/wp-content\/plugins\/ultimate-elementor\/assets\/img\/post-loader.gif","url":"http:\/\/micallefmelvin.com\/wp-admin\/admin-ajax.php","search_str":"Search:","table_not_found_str":"No matching records found","table_length_string":"Show _MENU_ Entries","uael_particles_url":"http:\/\/micallefmelvin.com\/wp-content\/plugins\/ultimate-elementor\/assets\/min-js\/uael-particles.min.js","particles_url":"http:\/\/micallefmelvin.com\/wp-content\/plugins\/ultimate-elementor\/assets\/lib\/particles\/particles.min.js"};
+var uael = {"ajax_url":"http:\/\/micallefmelvin.com\/wp-admin\/admin-ajax.php"};
+var uaelRegistration = {"invalid_mail":"Enter valid Email!","pass_unmatch":"The specified password do not match!","required":"This Field is required!","form_nonce":"3dccf754fd","incorrect_password":"Error: The Password you have entered is incorrect.","invalid_username":"Unknown username. Check again or try your email address.","invalid_email":"Unknown email address. Check again or try your username."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://micallefmelvin.com/wp-includes/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="http://micallefmelvin.com/wp-includes/js/jquery/jquery-migrate.min.js"></script>
+<script type="text/javascript">
+window.scope_array = [];
+								window.backend = 0;
+								jQuery.cachedScript = function( url, options ) {
+									// Allow user to set any option except for dataType, cache, and url.
+									options = jQuery.extend( options || {}, {
+										dataType: "script",
+										cache: true,
+										url: url
+									});
+									// Return the jqXHR object so we can chain callbacks.
+									return jQuery.ajax( options );
+								};
+							    jQuery( window ).on( "elementor/frontend/init", function() {
+									elementorFrontend.hooks.addAction( "frontend/element_ready/global", function( $scope, $ ){
+										if ( "undefined" == typeof $scope ) {
+												return;
+										}
+										if ( $scope.hasClass( "uael-particle-yes" ) ) {
+											window.scope_array.push( $scope );
+											$scope.find(".uael-particle-wrapper").addClass("js-is-enabled");
+										}else{
+											return;
+										}
+										if(elementorFrontend.isEditMode() && $scope.find(".uael-particle-wrapper").hasClass("js-is-enabled") && window.backend == 0 ){		
+											var uael_url = uael_script.uael_particles_url;
+											
+											jQuery.cachedScript( uael_url );
+											window.backend = 1;
+										}else if(elementorFrontend.isEditMode()){
+											var uael_url = uael_script.uael_particles_url;
+											jQuery.cachedScript( uael_url ).done(function(){
+												var flag = true;
+											});
+										}
+									});
+								});
+								jQuery(document).ready(function(){
+									if ( jQuery.find( ".uael-particle-yes" ).length < 1 ) {
+										return;
+									}
+									var uael_url = uael_script.uael_particles_url;
+									jQuery.cachedScript = function( url, options ) {
+										// Allow user to set any option except for dataType, cache, and url.
+										options = jQuery.extend( options || {}, {
+											dataType: "script",
+											cache: true,
+											url: url
+										});
+										// Return the jqXHR object so we can chain callbacks.
+										return jQuery.ajax( options );
+									};
+									jQuery.cachedScript( uael_url );
+								});	
+</script>
+
+
+
+
+
+
+
+</head>
+<body class="home page-template-default page page-id-14 elementor-default elementor-kit-12 elementor-page elementor-page-14">
+
+		<div data-elementor-type="header" data-elementor-id="37" class="elementor elementor-37 elementor-location-header" data-elementor-settings="[]">
+		<div class="elementor-inner">
+			<div class="elementor-section-wrap">
+						<section data-particle_enable="false" class="elementor-element elementor-element-073846a elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="073846a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-40e29a1 elementor-column elementor-col-50 elementor-top-column" data-id="40e29a1" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-5dec349 elementor-widget elementor-widget-theme-site-title elementor-widget-heading" data-id="5dec349" data-element_type="widget" data-widget_type="theme-site-title.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="http://micallefmelvin.com">Melvin Micallef</a></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-53d9042 elementor-column elementor-col-50 elementor-top-column" data-id="53d9042" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4e6d587 elementor-nav-menu__align-right elementor-nav-menu--indicator-classic elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="4e6d587" data-element_type="widget" data-settings='{"layout":"horizontal","toggle":"burger"}' data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade"><ul id="menu-1-4e6d587" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8"><a href="http://micallefmelvin.com/about/" class="elementor-item">About</a></li>
+</ul></nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i class="eicon-menu-bar" aria-hidden="true"></i>
+			<span class="elementor-screen-only">Menu</span>
+		</div>
+			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true"><ul id="menu-2-4e6d587" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8"><a href="http://micallefmelvin.com/about/" class="elementor-item">About</a></li>
+</ul></nav>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+					</div>
+		</div>
+		</div>
+		
+<main class="site-main post-14 page type-page status-publish hentry" role="main">
+		<div class="page-content">
+				<div data-elementor-type="wp-page" data-elementor-id="14" class="elementor elementor-14" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section data-particle_enable="false" class="elementor-element elementor-element-3b806a9 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="3b806a9" data-element_type="section" data-settings='{"background_background":"classic"}'>
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-93ef7c0 elementor-column elementor-col-66 elementor-top-column" data-id="93ef7c0" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d695040 elementor-widget elementor-widget-heading" data-id="d695040" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Melvin Micallef</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-35b57d4 elementor-widget elementor-widget-text-editor" data-id="35b57d4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>This website is still under construction</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-a9f2dd1 elementor-column elementor-col-33 elementor-top-column" data-id="a9f2dd1" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-43b61c9 elementor-widget elementor-widget-image" data-id="43b61c9" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="800" height="600" src="http://micallefmelvin.com/wp-content/uploads/2020/04/wp-1-1024x768.png" class="attachment-large size-large" alt="" srcset="http://micallefmelvin.com/wp-content/uploads/2020/04/wp-1-1024x768.png 1024w,http://micallefmelvin.com/wp-content/uploads/2020/04/wp-1-300x225.png 300w,http://micallefmelvin.com/wp-content/uploads/2020/04/wp-1-768x576.png 768w,http://micallefmelvin.com/wp-content/uploads/2020/04/wp-1-1536x1152.png 1536w,http://micallefmelvin.com/wp-content/uploads/2020/04/wp-1-2048x1536.png 2048w" sizes="(max-width: 800px) 100vw, 800px">											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section data-particle_enable="false" class="elementor-element elementor-element-53dafa6 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="53dafa6" data-element_type="section" data-settings='{"background_background":"classic","shape_divider_top":"opacity-tilt"}'>
+					<div class="elementor-shape elementor-shape-top" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 2600 131.1" preserveaspectratio="none">
+	<path class="elementor-shape-fill" d="M0 0L2600 0 2600 69.1 0 0z"></path>
+	<path class="elementor-shape-fill" style="opacity:0.5" d="M0 0L2600 0 2600 69.1 0 69.1z"></path>
+	<path class="elementor-shape-fill" style="opacity:0.25" d="M2600 0L0 0 0 130.1 2600 69.1z"></path>
+</svg>		</div>
+					<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-144d5a2 elementor-column elementor-col-66 elementor-top-column" data-id="144d5a2" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d2159ea elementor-widget elementor-widget-spacer" data-id="d2159ea" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-1fe4c2b elementor-column elementor-col-33 elementor-top-column" data-id="1fe4c2b" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section data-particle_enable="false" class="elementor-element elementor-element-d9377bf elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="d9377bf" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-a16cf2b elementor-column elementor-col-100 elementor-top-column" data-id="a16cf2b" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-c826633 elementor-widget elementor-widget-eael-logo-carousel" data-id="c826633" data-element_type="widget" data-widget_type="eael-logo-carousel.default">
+				<div class="elementor-widget-container">
+			        <div class="swiper-container-wrap eael-logo-carousel-wrap swiper-container-wrap-dots-outside">
+            <div class="swiper-container eael-logo-carousel swiper-container-c826633" data-pagination=".swiper-pagination-c826633" data-arrow-next=".swiper-button-next-c826633" data-arrow-prev=".swiper-button-prev-c826633" data-items="5" data-items-tablet="2" data-items-mobile="1" data-margin="10" data-effect="slide" data-speed="400" data-autoplay="999999" data-arrows="1">
+                <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                <div class="eael-lc-logo-wrap">
+                                    <div class="eael-lc-logo">
+                                        <img src="http://micallefmelvin.com/wp-content/uploads/2020/04/angular-3-logo.png" alt="">                                    </div>
+                                                                    </div>
+                            </div>
+                                                        <div class="swiper-slide">
+                                <div class="eael-lc-logo-wrap">
+                                    <div class="eael-lc-logo">
+                                        <a href="#java"><img src="http://micallefmelvin.com/wp-content/uploads/2020/04/59984caffdabd9293e40048281e35d79.jpeg" alt=""></a>                                    </div>
+                                                                    </div>
+                            </div>
+                                                        <div class="swiper-slide">
+                                <div class="eael-lc-logo-wrap">
+                                    <div class="eael-lc-logo">
+                                        <img src="http://micallefmelvin.com/wp-content/plugins/elementor/assets/images/placeholder.png" alt="">                                    </div>
+                                                                    </div>
+                            </div>
+                                                        <div class="swiper-slide">
+                                <div class="eael-lc-logo-wrap">
+                                    <div class="eael-lc-logo">
+                                        <img src="http://micallefmelvin.com/wp-content/plugins/elementor/assets/images/placeholder.png" alt="">                                    </div>
+                                                                    </div>
+                            </div>
+                                                        <div class="swiper-slide">
+                                <div class="eael-lc-logo-wrap">
+                                    <div class="eael-lc-logo">
+                                        <img src="http://micallefmelvin.com/wp-content/plugins/elementor/assets/images/placeholder.png" alt="">                                    </div>
+                                                                    </div>
+                            </div>
+                                            </div>
+            </div>
+                        
+            <div class="swiper-pagination swiper-pagination-c826633"></div>
+                                
+            <div class="swiper-button-next swiper-button-next-c826633">
+                                    <i class="fas fa-angle-right"></i>
+                            </div>
+            <div class="swiper-button-prev swiper-button-prev-c826633">
+                                    <i class="fas fa-angle-left"></i>
+                            </div>
+                </div>
+        		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section data-particle_enable="false" class="elementor-element elementor-element-523c40e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="523c40e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-14c88ae elementor-column elementor-col-100 elementor-top-column" data-id="14c88ae" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-544fb42 elementor-grid-3 elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-posts--thumbnail-top elementor-widget elementor-widget-posts" data-id="544fb42" data-element_type="widget" data-settings='{"classic_columns":"3","classic_columns_tablet":"2","classic_columns_mobile":"1","classic_row_gap":{"unit":"px","size":35,"sizes":[]}}' data-widget_type="posts.classic">
+				<div class="elementor-widget-container">
+					<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
+				<article class="elementor-post elementor-grid-item post-1 post type-post status-publish format-standard hentry category-uncategorized">
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="http://micallefmelvin.com/hello-world/">
+				Hello world!			</a>
+		</h3>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-date">
+			April 21, 2020		</span>
+				<span class="elementor-post-avatar">
+			No Comments		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing! Click here</p>
+		</div>
+					<a class="elementor-post__read-more" href="http://micallefmelvin.com/hello-world/">
+				Read More »			</a>
+				</div>
+				</article>
+				</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+				<div class="post-tags">
+					</div>
+			</div>
+
+	<section id="comments" class="comments-area">
+
+	
+
+
+</section>
+</main>
+
+	<footer id="site-footer" class="site-footer" role="contentinfo">
+	</footer>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var localize = {"ajaxurl":"http:\/\/micallefmelvin.com\/wp-admin\/admin-ajax.php","nonce":"5a165203ce","ParticleThemesData":{"default":"{\"particles\":{\"number\":{\"value\":160,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":false,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":3,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":true,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":6,\"direction\":\"none\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"repulse\"},\"onclick\":{\"enable\":true,\"mode\":\"push\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}","nasa":"{\"particles\":{\"number\":{\"value\":250,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":1,\"random\":true,\"anim\":{\"enable\":true,\"speed\":1,\"opacity_min\":0,\"sync\":false}},\"size\":{\"value\":3,\"random\":true,\"anim\":{\"enable\":false,\"speed\":4,\"size_min\":0.3,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":1,\"direction\":\"none\",\"random\":true,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":600}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"bubble\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":250,\"size\":0,\"duration\":2,\"opacity\":0,\"speed\":3},\"repulse\":{\"distance\":400,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}","bubble":"{\"particles\":{\"number\":{\"value\":15,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#1b1e34\"},\"shape\":{\"type\":\"polygon\",\"stroke\":{\"width\":0,\"color\":\"#000\"},\"polygon\":{\"nb_sides\":6},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.3,\"random\":true,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":50,\"random\":false,\"anim\":{\"enable\":true,\"speed\":10,\"size_min\":40,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":200,\"color\":\"#ffffff\",\"opacity\":1,\"width\":2},\"move\":{\"enable\":true,\"speed\":8,\"direction\":\"none\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":false,\"mode\":\"grab\"},\"onclick\":{\"enable\":false,\"mode\":\"push\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}","snow":"{\"particles\":{\"number\":{\"value\":450,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#fff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":true,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":5,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":500,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":2},\"move\":{\"enable\":true,\"speed\":6,\"direction\":\"bottom\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"bubble\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":0.5}},\"bubble\":{\"distance\":400,\"size\":4,\"duration\":0.3,\"opacity\":1,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}","nyan_cat":"{\"particles\":{\"number\":{\"value\":150,\"density\":{\"enable\":false,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"star\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"http:\/\/wiki.lexisnexis.com\/academic\/images\/f\/fb\/Itunes_podcast_icon_300.jpg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":false,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":4,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":14,\"direction\":\"left\",\"random\":false,\"straight\":true,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":false,\"mode\":\"grab\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":200,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://micallefmelvin.com/wp-content/uploads/essential-addons-elementor/fa14246f25c1f49521caa3b833063c08.min.js"></script>
+<script type="text/javascript" src="http://micallefmelvin.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js"></script>
+<script type="text/javascript" src="http://micallefmelvin.com/wp-includes/js/imagesloaded.min.js"></script>
+<script type="text/javascript" src="http://micallefmelvin.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"></script>
+<script type="text/javascript" src="http://micallefmelvin.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js"></script>
+<script type="text/javascript">
+var ElementorProFrontendConfig = {"ajaxurl":"http:\/\/micallefmelvin.com\/wp-admin\/admin-ajax.php","nonce":"b949833341","i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"delicious":{"title":"Delicious"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""}};
+</script>
+<script type="text/javascript" src="http://micallefmelvin.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js"></script>
+<script type="text/javascript" src="http://micallefmelvin.com/wp-includes/js/jquery/ui/position.min.js"></script>
+<script type="text/javascript" src="http://micallefmelvin.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js"></script>
+<script type="text/javascript" src="http://micallefmelvin.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js"></script>
+<script type="text/javascript" src="http://micallefmelvin.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js"></script>
+<script type="text/javascript" src="http://micallefmelvin.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js"></script>
+<script type="text/javascript">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","downloadImage":"Download image"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.9.7","urls":{"assets":"http:\/\/micallefmelvin.com\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_lightbox_enable_counter":"yes","elementor_lightbox_enable_fullscreen":"yes","elementor_lightbox_enable_zoom":"yes","elementor_lightbox_enable_share":"yes","elementor_lightbox_title_src":"title","elementor_lightbox_description_src":"description"},"editorPreferences":[]},"post":{"id":14,"title":"Melvin%20Micallef","excerpt":"","featuredImage":false}};
+</script>
+<script type="text/javascript" src="http://micallefmelvin.com/wp-content/plugins/elementor/assets/js/frontend.min.js"></script>
+
+</body>
+</html>
